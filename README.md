@@ -82,7 +82,7 @@
 * Abra en su navegador el reporte y podra visualizar el listado consolidado de los reportes Resemble y Backstop
 
 
-<h2> 4. Ejecutar proyecto pruebas generación de datos </h2>
+<h2> 4. Ejecutar proyecto pruebas validación de datos </h2>
 
 * El aplicativo Ghost se encuentra desplegado en una instacia EC2 en AWS http://ec2-18-191-52-241.us-east-2.compute.amazonaws.com:2368/ por lo que no es necesario tenerlo instalado en la maquina local.
 * Debe tener instalado en la maquina ```cypress versión 7.3.0```, validar con el comando ```cypress --version``` si no lo tiene o tiene otra versión por favor instalarla ejecutando los comandos ```npm uninstall -g cypress``` y luego el comando ```npm install -g cypress```
