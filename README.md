@@ -5,7 +5,7 @@
 <h2> 1. Inventarios Pruebas </h2>
 
 * Validación de datos -> [Link de pruebas validación datos](https://drive.google.com/file/d/1h52tg5APX7QQojiNFdxQvAcMPjS6eK7F/view?usp=sharing)
-* Pruebas E2E y VRT   -> [Link de pruebas E2E y VRT]https://docs.google.com/spreadsheets/d/1rsDur30pZZxiY6kS4BnOqiuCtGlSV4KcPbj3URbYtG8/edit?usp=sharing)
+* Pruebas E2E y VRT   -> [Link de pruebas E2E y VRT](https://docs.google.com/spreadsheets/d/1rsDur30pZZxiY6kS4BnOqiuCtGlSV4KcPbj3URbYtG8/edit?usp=sharing)
 
 <h2> 2. Defectos Encontrados </h2>
 
