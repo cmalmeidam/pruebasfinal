@@ -5,7 +5,7 @@
 * El aplicativo Ghost se encuentra desplegado en una instacia EC2 en AWS http://ec2-18-191-52-241.us-east-2.compute.amazonaws.com:2368/ por lo que no es necesario tenerlo instalado en la maquina local.
 * Descargar o clonar el código del repositorio de la rama main
 * Abrir linea de comandos e ir a la carpeta en donde descargo o clono el repositorio
-* Ingresar a la carpeta ```/reconocimiento/RIPuppet_```
+* Ingresar a la carpeta ```/reconocimiento/RIPuppet```
 * Intallar dependencias del proyecto ```npm install``` 
 * Ejecutar el comando ```node index.js```
 * Instalar ```npm install -g http-server```
