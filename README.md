@@ -26,7 +26,7 @@
 
 <h2> 4. Ejecutar proyecto pruebas e2e Kraken </h2>
 
-<h2> 5. Ejecutar proyecto pruebas vtr </h2>
+<h2> 5. Ejecutar proyecto pruebas vrt </h2>
 
 
 <h2> 6. Ejecutar proyecto pruebas generación de datos </h2>
