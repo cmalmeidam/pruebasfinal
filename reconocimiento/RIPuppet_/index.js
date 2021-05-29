@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const faker = require('faker');
 const parser = require('node-html-parser');
+let iniciar = false;
 
 //Constants
 var screenshots_directory = './screenshots';
@@ -135,7 +136,21 @@ async function recursiveExploration(page, link, depth, parentState){
   await page.goto(link, {waitUntil: 'networkidle2'}).catch((err)=>{
     console.log(err); 
     return; 
-  });
+  });  
+
+  /**
+   * Login 
+   */
+  if (!iniciar){
+   const username =  await page.waitFor("input[name=identification]"); 
+   await username.focus(); 
+   /*await page.keyboard.type("tutoresmisoca@gmail.com"); 
+   await page.keyboard.press("Tab");     
+   await page.keyboard.type("FIm$zAHoj%");    
+   await page.click("button");  */
+   iniciar=true; 
+  }
+
   let html = await getDOM(page);
   let parsedHtml = parser.parse(html);
   let body = parsedHtml.querySelector('body');
@@ -445,7 +460,7 @@ async function interactWithObject(object, page, currentState, interactionNumber,
       else{
         await fillInput(elementHandle, page);
       }
-      await page.evaluate(_ => {window.scrollTo(0,0)});
+      //await page.evaluate(_ => {window.scrollTo(0,0)});
     }    
   }
   else if(object.type === 'button'){
