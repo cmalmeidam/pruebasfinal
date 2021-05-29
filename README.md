@@ -43,7 +43,7 @@
 * Ingresar a la carpeta ```/vrt/resemble``` desde la raiz del repo
 * Ejecutar el comando ```npm install``` para descargar las dependencias del proyecto
 * Ejecutar el comando ```node index.js```
-* Los resultados de la ejecución se veran en las carpetas /vrt/cypress/cypress/screenshots/(escenario)/resultado dentro de esta carpeta se genera las imagenes de las diferencias y los html del reporte.
+* Los resultados de la ejecución se veran en las carpetas ```/vrt/cypress/cypress/screenshots/(escenario)/resultado``` dentro de esta carpeta se genera las imagenes de las diferencias y los html del reporte.
 
 <h3> 5.3 Ejecutar proyecto Backstop </h3>
 
