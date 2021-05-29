@@ -1,0 +1,12 @@
+{
+    "url": "http://localhost:2368/ghost",
+    "headless": true,
+    "depthLevels": 2,
+    "inputValues": true,
+    "values": {"userInput": "Mario",
+        "passwordInput": "123456",
+        "ember10": "FIm$zAHoj%",
+        "nameInput": "Christian",
+        "ember8": "c.almeidam@uniandes.edu.co"},
+    "browsers": ["chromium", "webkit", "firefox"]
+}
