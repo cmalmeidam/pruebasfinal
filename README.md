@@ -1,5 +1,10 @@
 # Entrega Semana 8
 
+<h2> Inventarios Pruebas </h2>
+
+* Validación de datos -> https://drive.google.com/file/d/1h52tg5APX7QQojiNFdxQvAcMPjS6eK7F/view?usp=sharing
+* Pruebas E2E y VRT   -> https://docs.google.com/spreadsheets/d/1rsDur30pZZxiY6kS4BnOqiuCtGlSV4KcPbj3URbYtG8/edit?usp=sharing
+
 <h2> 1. Pruebas reconocimiento  </h2>
 
 <h3> 1.1 Ejecutar proyecto RIPuppet </h3>
