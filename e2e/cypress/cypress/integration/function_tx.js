@@ -1,8 +1,5 @@
-export const URL_VERSION_3_3_0 =
-  "http://ec2-3-16-149-96.us-east-2.compute.amazonaws.com:2368/ghost/#/";
 export const URL_VERSION_3_42_5 =
   "http://ec2-18-191-52-241.us-east-2.compute.amazonaws.com:2368/ghost/#/";
-export const PATH_VERSION_3_3_0 = "version_3_3_0/";
 export const PATH_VERSION_3_42_5 = "version_3_42_5/";
 export const USER_GHOST = "tutoresmisoca@gmail.com";
 export const PASS_GHOST = "FIm$zAHoj%";
