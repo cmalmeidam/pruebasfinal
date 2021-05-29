@@ -26,7 +26,7 @@
 
 <h2> 4. Ejecutar proyecto pruebas e2e Kraken </h2>
 
-<h2> 5. Ejecutar proyecto pruebas vrt (Ojo revisar solo se trae comentarios de otro repo) </h2>
+<h2> 5. Ejecutar proyecto pruebas vrt (Ojo revisar funcionamiento) </h2>
 
 <h3> 5.1. Ejecutar proyecto Cypress </h3>
 
