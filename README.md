@@ -1,9 +1,19 @@
 # Entrega Semana 8
 
-<h2> Inventarios Pruebas </h2>
+<h1> I Generalidades </h1>
 
-* Validación de datos -> https://drive.google.com/file/d/1h52tg5APX7QQojiNFdxQvAcMPjS6eK7F/view?usp=sharing
-* Pruebas E2E y VRT   -> https://docs.google.com/spreadsheets/d/1rsDur30pZZxiY6kS4BnOqiuCtGlSV4KcPbj3URbYtG8/edit?usp=sharing
+<h2> 1. Inventarios Pruebas </h2>
+
+* Validación de datos -> [Link de pruebas validación datos](https://drive.google.com/file/d/1h52tg5APX7QQojiNFdxQvAcMPjS6eK7F/view?usp=sharing)
+* Pruebas E2E y VRT   -> [Link de pruebas E2E y VRT]https://docs.google.com/spreadsheets/d/1rsDur30pZZxiY6kS4BnOqiuCtGlSV4KcPbj3URbYtG8/edit?usp=sharing)
+
+<h2> 2. Defectos Encontrados </h2>
+
+* [Link de incidencias en Jira](https://team-1618171251165.atlassian.net/jira/software/c/projects/TSDL/issues/)
+* Usuario: misw.411.202116113@gmail.com 
+* Contraseña: uniandes*21
+
+<h1> II Pruebas </h1>
 
 <h2> 1. Pruebas reconocimiento  </h2>
 
