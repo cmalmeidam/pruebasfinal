@@ -26,7 +26,7 @@
 
 <h2> 4. Ejecutar proyecto pruebas e2e Kraken </h2>
 
-<h2> 5. Ejecutar proyecto pruebas vrt (Ojo revisar funcionamiento) </h2>
+<h2> 5. Ejecutar proyecto pruebas vrt </h2>
 
 <h3> 5.1. Ejecutar proyecto Cypress </h3>
 
@@ -34,7 +34,7 @@
 * Debe tener instalado en la maquina ```cypress versión 7.3.0```, validar con el comando ```cypress --version``` si no lo tiene o tiene otra versión por favor instalarla ejecutando los comandos ```npm uninstall -g cypress``` y luego el comando ```npm install -g cypress```
 * Descargar o clonar el código del repositorio de la rama ```main```
 * Abrir linea de comandos e ir a la carpeta en donde descargo o clono el repositorio
-* Ingresar a la carpeta ```/vrt```
+* Ingresar a la carpeta ```/vrt/cypress```
 * Ejecutar el comando ```cypress run --headless``` o si lo desea usar el comando ```cyppress open``` y ejecutar cada ```.spec.js``` de forma manual  
 
 <h3> 5.2 Ejecutar proyecto Resemble </h3>
@@ -43,7 +43,7 @@
 * Ingresar a la carpeta ```/vrt/resemble``` desde la raiz del repo
 * Ejecutar el comando ```npm install``` para descargar las dependencias del proyecto
 * Ejecutar el comando ```node index.js```
-* Los resultados de la ejecución se veran en las carpetas /vrt/cypress/cypress/screenshots/(escenario)/resultado dentro de esta carpeta se genera las imagenes de las diferencias y los html del reporte.
+* Los resultados de la ejecución se veran en las carpetas ```/vrt/cypress/cypress/screenshots/(escenario)/resultado``` dentro de esta carpeta se genera las imagenes de las diferencias y los html del reporte.
 
 <h3> 5.3 Ejecutar proyecto Backstop </h3>
 
@@ -51,7 +51,7 @@
 * Ingresar a la carpeta ```/vrt``` desde la raiz del repo
 * Ejecutar el comando ```npm install``` para descargar las dependencias del proyecto
 * Debe tener instalado backstopjs en la ```versión v5.3.2``` en el equipo de ejecución, comprobar la instalación con el comando ```backstop -v``` sino lo tiene ```npm install -g backstopjs```
-* Ejecutar el comando node ```scriptbackstop.js```
+* Ejecutar el comando ```node scriptbackstop.js```
 * Los resultados de la ejecución se veran en las carpetas ```/backstop_data/html_report/``` dentro de esta carpeta se genera el html del reporte.
 
 <h3> 5.4. Generación del reporte unificado </h3>
