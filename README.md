@@ -15,11 +15,11 @@
 * Si quiere ver el informe ejecutar el comando ```http-server```
 * Abrir en el navegador http://localhost:8080/ y explorar el informe de la ejecución 
 
-<h3> 1.2 Ejecutar proyecto pruebas reconocimiento Monkey </h3>
+<h3> 1.2 Ejecutar proyecto Monkey </h3>
 
 <h2> 2. Pruebas e2e </h2>
 
-<h3> 2.1. Ejecutar proyecto pruebas e2e Cypress </h3>
+<h3> 2.1. Ejecutar proyecto Cypress </h3>
 
 * El aplicativo Ghost se encuentra desplegado en una instacia EC2 en AWS http://ec2-18-191-52-241.us-east-2.compute.amazonaws.com:2368/ por lo que no es necesario tenerlo instalado en la maquina local.
 * Debe tener instalado en la maquina ```cypress versión 7.3.0```, validar con el comando ```cypress --version``` si no lo tiene o tiene otra versión por favor instalarla ejecutando los comandos ```npm uninstall -g cypress``` y luego el comando ```npm install -g cypress```
@@ -28,7 +28,7 @@
 * Ingresar a la carpeta ```/e2e/cypress```
 * Ejecutar el comando ```cypress run --headless``` o si lo desea usar el comando ```cyppress open``` y ejecutar cada ```.spec.js``` de forma manual  
 
-<h3> 2.2 Ejecutar proyecto pruebas e2e Kraken </h3>
+<h3> 2.2 Ejecutar proyecto Kraken </h3>
 
 <h2> 3. Ejecutar proyecto pruebas vrt </h2>
 
