@@ -51,7 +51,7 @@
 * Ingresar a la carpeta ```/vrt``` desde la raiz del repo
 * Ejecutar el comando ```npm install``` para descargar las dependencias del proyecto
 * Debe tener instalado backstopjs en la ```versión v5.3.2``` en el equipo de ejecución, comprobar la instalación con el comando ```backstop -v``` sino lo tiene ```npm install -g backstopjs```
-* Ejecutar el comando node ```scriptbackstop.js```
+* Ejecutar el comando ```node scriptbackstop.js```
 * Los resultados de la ejecución se veran en las carpetas ```/backstop_data/html_report/``` dentro de esta carpeta se genera el html del reporte.
 
 <h3> 5.4. Generación del reporte unificado </h3>
