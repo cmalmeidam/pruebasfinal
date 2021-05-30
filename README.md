@@ -31,7 +31,15 @@
 * Abrir en el navegador http://localhost:8080/ y explorar el informe de la ejecución 
 
 <h3> 1.2 Ejecutar proyecto Monkey </h3>
-
+* El aplicativo Ghost se encuentra desplegado en una instacia EC2 en AWS http://ec2-18-191-52-241.us-east-2.compute.amazonaws.com:2368/ por lo que no es necesario tenerlo instalado en la maquina local.
+* Descargar o clonar el código del repositorio de la rama main
+* Abrir linea de comandos e ir a la carpeta en donde descargo o clono el repositorio
+* Ingresar a la carpeta ```/reconocimiento/monkey-cypress_```
+* Instalar dependencias del proyecto ```npm install``` 
+* Ejecutar el comando ``` cypress run --headless --config-file monkey-config.json```
+* Ejecutar el comando ``` cypress run --headless --config-file monkey-config.json```
+* Ingresar a la carpeta  ```/cypress/screenshots```
+* Alli podra observar un screenshot con el resumen de la ejecucion
 <h2> 2. Pruebas e2e </h2>
 
 <h3> 2.1. Ejecutar proyecto Cypress </h3>
