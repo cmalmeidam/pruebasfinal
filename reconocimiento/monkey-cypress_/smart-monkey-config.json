@@ -1,6 +1,6 @@
 {
     "projectId":"TSDL-Smart-Monkey-with-cypress",
-    "baseUrl":"http://localhost:2368/ghost/#/signin/",
+    "baseUrl":"http://ec2-3-16-149-96.us-east-2.compute.amazonaws.com:2368/ghost/#",
     "env":{
         "appName":"App prueba",
         "events":50,

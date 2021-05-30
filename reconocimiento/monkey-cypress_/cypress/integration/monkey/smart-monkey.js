@@ -305,7 +305,6 @@ function avPag(){
         } 
         else{
             curY = curPageMaxY - viewportHeight
-            cy.scrollTo(curX, curY)
             info += "Page limit reached! "
         }
         info += `Successfully scrolled down from y=${prev} to y=${curY}`
@@ -343,11 +342,9 @@ function horizontalScrollFw(){
     if(curPageMaxX - curX >= viewportWidth){ 
         if(curPageMaxX - (curX + viewportWidth) >= viewportWidth){
             curX = curX + viewportWidth
-            cy.scrollTo(curX, curY)
         } 
         else{
             curX = curPageMaxX - viewportWidth
-            cy.scrollTo(curX, curY)
             info += "Page limit reached! "
         }
         info += `Successfully scrolled to the right from x=${prev} to x=${curX}`
@@ -367,12 +364,10 @@ function horizontalScrollBk(){
     else{
         if(viewportWidth > curX){
             curX =  0
-            cy.scrollTo(curX, curY)
             info += "Page limit reached! "
         }
         else{
             curX = curX - viewportWidth
-            cy.scrollTo(curX, curY)
         }
         info += `Successfully scrolled to the left from x=${prev} to x=${curX}`
     }
@@ -523,8 +518,9 @@ function fillInput(){ //Or fill form
             if(!Cypress.dom.isHidden(inp)) {
                 focused = true;
                 if(inp.getAttribute("type") == "email"){
-                    let type = faker.internet.email;
-                    cy.wrap(inp).type(faker.internet.email);
+                    let type = faker.internet.email();
+                    console.log(type);
+                    cy.wrap(inp).type(faker.internet.email());
                     info = `Input ${inp.id} was filled with ${type}`
                 }
                 else if(inp.getAttribute("type") == "button" || inp.getAttribute("type") == "submit" || inp.getAttribute("type") == "radio" || inp.getAttribute("type") == "checkbox"){
