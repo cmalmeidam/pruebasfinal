@@ -2,7 +2,7 @@
 require('cypress-plugin-tab')
 var fs = require('fs')
 
-const url = Cypress.config('baseUrl') || "http://localhost:2368/ghost/"
+const url = Cypress.config('baseUrl') || "http://ec2-3-16-149-96.us-east-2.compute.amazonaws.com:2368/ghost/#"
 const appName = Cypress.env('appName')|| "your app"
 const events = Cypress.env('events')|| 100
 const delay = Cypress.env('delay') || 100
@@ -16,7 +16,8 @@ const pct_spkeys = Cypress.env('pctSpKeys') || 16
 const pct_pgnav = Cypress.env('pctPgNav') || 16 
 
 const LOG_FILENAME = "../../../results/monkey-execution.html"
-
+export const USER_GHOST = "tutoresmisoca@gmail.com";
+export const PASS_GHOST = "FIm$zAHoj%";
 /*
  Bob Jenkins Small Fast, aka smallprng pseudo random number generator is the chosen selection for introducing seeding in the tester
  Credits of the implementation to bryc's answer in this stackoverflow post: https://stackoverflow.com/a/47593316 
@@ -292,7 +293,6 @@ function avPag(){
         } 
         else{
             curY = curPageMaxY - viewportHeight
-            cy.scrollTo(curX, curY)
             info += "Page limit reached! "
         }
         info += `Successfully scrolled down from y=${prev} to y=${curY}`
@@ -546,8 +546,8 @@ describe( `${appName} under monkeys`, function() {
                 curPageMaxX = Math.max( d.body.scrollWidth, d.body.offsetWidth, d.documentElement.clientWidth, d.documentElement.scrollWidth, d.documentElement.offsetWidth) - win.innerWidth
             })
             cy.wait(1000)
-            cy.get('.email.ember-text-field.gh-input.ember-view').type('c.almeidam@uniandes.edu.co');
-            cy.get('.password.ember-text-field.gh-input.ember-view').type('FIm$zAHoj%');
+            cy.get('.email.ember-text-field.gh-input.ember-view').type(USER_GHOST);
+            cy.get('.password.ember-text-field.gh-input.ember-view').type(PASS_GHOST);
             cy.get('.login.gh-btn.gh-btn-blue.gh-btn-block.gh-btn-icon.ember-view').click();
             cy.wait(1000)
             //Add an event for each type of event in order to enter the else statement of randomEvent method
