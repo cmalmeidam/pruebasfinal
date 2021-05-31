@@ -2,19 +2,22 @@
 
 <h1> I Generalidades </h1>
 
-<h2> 1. Inventarios Pruebas </h2>
+<h2> 1. Link a la estrategia de pruebas (Acceder con usuario uniandes) </h2>
+https://uniandes-my.sharepoint.com/:b:/g/personal/pa_cardenasg1_uniandes_edu_co/EdEGE89W6etJnuJTaKauATgBwKPQ2XXspWcEheOyk25q5g?e=A30z9N
+
+<h2> 2. Inventarios Pruebas </h2>
 
 * Inventario Pruebas Manuales (Acceder con usuario uniandes) -> [Link de invenrario pruebas manuales](https://uniandes-my.sharepoint.com/:x:/g/personal/c_almeidam_uniandes_edu_co/EQTFQL6Kz7NBqXlE84-yr5cBhW2zFxbltw_L7sffnMF1MA?e=09cUPI)
 * Validación de datos -> [Link de pruebas validación datos](https://drive.google.com/file/d/1h52tg5APX7QQojiNFdxQvAcMPjS6eK7F/view?usp=sharing)
 * Pruebas E2E y VRT   -> [Link de pruebas E2E y VRT](https://docs.google.com/spreadsheets/d/1rsDur30pZZxiY6kS4BnOqiuCtGlSV4KcPbj3URbYtG8/edit?usp=sharing)
 
-<h2> 2. Defectos Encontrados </h2>
+<h2> 3. Defectos Encontrados </h2>
 
 * [Link de incidencias en Jira](https://team-1618171251165.atlassian.net/jira/software/c/projects/TSDL/issues/)
 * Usuario: misw.411.202116113@gmail.com 
 * Contraseña: uniandes*21
 
-<h2> 3. Video de la entrega </h2>
+<h2> 4. Video de la entrega </h2>
 
 * [Link del video de la entrega](https://www.youtube.com/watch?v=rQa0E9zJaPM)
 
