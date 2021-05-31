@@ -14,6 +14,10 @@
 * Usuario: misw.411.202116113@gmail.com 
 * Contraseña: uniandes*21
 
+<h2> 3. Video de la entrega </h2>
+
+* [Link del video de la entrega](https://www.youtube.com/watch?v=rQa0E9zJaPM)
+
 <h1> II Pruebas </h1>
 
 <h2> 1. Pruebas reconocimiento  </h2>
