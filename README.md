@@ -3,6 +3,7 @@
 <h1> I Generalidades </h1>
 
 <h2> 1. Link a la estrategia de pruebas (Acceder con usuario uniandes) </h2>
+
 https://uniandes-my.sharepoint.com/:b:/g/personal/pa_cardenasg1_uniandes_edu_co/EdEGE89W6etJnuJTaKauATgBwKPQ2XXspWcEheOyk25q5g?e=A30z9N
 
 <h2> 2. Inventarios Pruebas </h2>
